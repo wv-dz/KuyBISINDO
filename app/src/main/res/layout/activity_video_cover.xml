@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFFF"
+    tools:context=".buah">
+
+    <VideoView
+        android:id="@+id/videoView"
+        android:layout_width="match_parent"
+        android:layout_height="250dp"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="0dp" />
+
+    <TextView
+        android:id="@+id/title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/videoView"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="20dp"
+        android:textColor="#000000"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        android:text="Akad"  />
+
+    <TextView
+        android:id="@+id/artist"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/title"
+        android:layout_marginLeft="20dp"
+        android:textColor="#000000"
+        android:textSize="20sp"
+        android:textStyle="italic"
+        android:text="Payung Teduh"  />
+
+    <TextView
+        android:id="@+id/rilis"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/artist"
+        android:layout_marginTop="25dp"
+        android:layout_marginLeft="20dp"
+        android:textColor="#000000"
+        android:textSize="15sp"
+        android:text="Dirilis\t\t\t\t\t\t\t: 23 Juni 2017"  />
+
+    <TextView
+        android:id="@+id/label"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/rilis"
+        android:layout_marginTop="5dp"
+        android:layout_marginLeft="20dp"
+        android:textColor="#000000"
+        android:textSize="15sp"
+        android:text="Label\t\t\t\t\t\t\t: Parara Records"  />
+
+    <TextView
+        android:id="@+id/pencipta"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/label"
+        android:layout_marginTop="5dp"
+        android:layout_marginLeft="20dp"
+        android:textColor="#000000"
+        android:textSize="15sp"
+        android:text="Pencipta\t\t\t\t: Moh. Istiqamah Djamad"  />
+
+</RelativeLayout>

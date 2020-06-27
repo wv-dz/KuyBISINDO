@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="playbutton_buah" type="id" />
+    <item name="playbutton_benda" type="id" />
+    <item name="playbutton_sifat" type="id" />
+    <item name="playbutton_percakapan" type="id" />
+</resources>

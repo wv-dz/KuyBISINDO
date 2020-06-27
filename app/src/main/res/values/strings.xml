@@ -1,0 +1,32 @@
+<resources>
+    <string name="app_name">Kuy BISINDO!</string>
+    <string name="button_game">/@button_game</string>
+    <string name="button_video" />
+    <string name="title_activity_main2">Main2Activity</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Notifications</string>
+    <string name="button">Button</string>
+    <string name="todo">TODO</string>
+    <string name="video">VIDEO</string>
+    <string name="about">About</string>
+    <string name="button_video_bisindo">button_video_bisindo</string>
+    <string name="button_video_cover">button_video_cover</string>
+    <string name="button_abjad">button_abjad</string>
+    <string name="button_buah">button_buah</string>
+    <string name="button_benda">button_benda</string>
+    <string name="button_sifat">button_sifat</string>
+    <string name="button_percakapan">button_percakapan</string>
+    <string name="_1_0_initial_release">1.0-initial release</string>
+    <string name="kuy_bisindo">Kuy BISINDO!</string>
+    <string name="unj">unj</string>
+    <string name="logo">logo</string>
+    <string name="text_desc">text_desc</string>
+    <string name="anggota">anggota</string>
+    <string name="nama_anggota" />
+    <string name="ANGGOTA">ANGGOTA</string>
+    <string name="developer_maintainer"><![CDATA[Developer & Maintainer]]></string>
+    <string name="program_studi_pendidikan_khusus">Program Studi Pendidikan Khusus</string>
+    <string name="wiwid_ihsanudin_prayoga_1512617030">Wiwid Ihsanudin Prayoga 1512617030</string>
+    <string name="program_studi_pend_teknik_informatika_dan_komputer">Program Studi Pend. Teknik Informatika dan Komputer</string>
+</resources>

@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    style="@android:style/Widget.DeviceDefault.Light.ScrollView"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#FFFFFF"
+    android:scrollbarStyle="insideOverlay">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="fill_vertical"
+        android:orientation="vertical"
+        android:gravity="center">
+
+        <ImageView
+            android:id="@+id/button_abjad"
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:layout_marginTop="50dp"
+            android:contentDescription="@string/button_abjad"
+            app:srcCompat="@drawable/button_abjad" />
+
+        <ImageView
+            android:id="@+id/button_buah"
+            android:contentDescription="@string/button_buah"
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            app:srcCompat="@drawable/button_buah" />
+
+        <ImageView
+            android:id="@+id/button_hari_bulan"
+            android:contentDescription="@string/button_benda"
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            app:srcCompat="@drawable/button_hari_bulan" />
+
+        <ImageView
+            android:id="@+id/button_kata_ganti_orang"
+            android:contentDescription="@string/button_sifat"
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            app:srcCompat="@drawable/button_kata_ganti_orang" />
+
+        <ImageView
+            android:id="@+id/button_percakapan"
+            android:contentDescription="@string/button_percakapan"
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            app:srcCompat="@drawable/button_percakapan" />
+    </LinearLayout>
+</ScrollView>
